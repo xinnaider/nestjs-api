@@ -3,6 +3,7 @@ import { DataSourceOptions } from 'typeorm';
 export const config: DataSourceOptions = {
   type: 'sqlite',
   database: '.db/sql',
-  synchronize: true, // Obs: use synchronize: true somente em desenvolvimento.
-  entities: [__dirname + '/**/*.entity{.ts,.js}'],
+  synchronize: true,
+  entities: ["dist/**/*.entity{.ts,.js}"],
+  migrations: ["dist/migrations/*{.ts,.js}"],
 };
