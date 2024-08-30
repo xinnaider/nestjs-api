@@ -1,4 +1,6 @@
-## Feito por José Fernando
+Este projeto foi desenvolvido como parte de um teste técnico, com o objetivo de criar uma API funcional usando NestJS, TypeORM, class-validator e SQLite. Embora eu não tivesse experiência prévia com JavaScript ou NestJS, consegui desenvolver e entregar a aplicação dentro do limite de 3 horas estipulado pela prova.
+
+### Feito por José Fernando
 
 Usando NestJs, TypeORM, class-validator e sqlite
 
